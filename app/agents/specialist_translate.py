@@ -3,7 +3,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 
 llm = ChatGroq(
-    model="llama3-8b-8192",
+    model="llama3-70b-8192",
     groq_api_key=GROQ_API_KEY
 )
 
